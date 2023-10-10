@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background: linear-gradient(to right , #007bff, #00cc00); /* Background color for the navigation bar */
+  padding: 10px; /* Add padding to space content from edges */
+}
+
+/* Style for the navigation bar */
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Style for the list items in the navigation bar */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin-right: 10px; /* Add some spacing between list items */
+}
+
+/* Style for the "Home" link */
+.nav li:first-child {
+    margin-right: auto; /* Push "Home" to the left */
+}
+
+/* Style for links */
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Style the links on hover */
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+  /* Container style */
+  #accountbillingcontainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Account info section */
+  .account-info {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+
+
+
+  .accnumber,
+  .address,
+  .phonenumber {
+    margin-bottom: 10px;
+  }
+
+  /* Billing info section */
+  .billing-info {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+
+
+  .account-info input[type="submit"] {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+

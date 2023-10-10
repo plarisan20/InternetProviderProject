@@ -1,0 +1,174 @@
+@charset "ISO-8859-1";
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Style the navigation menu container */
+.nav {
+  background: linear-gradient(to right , #007bff, #00cc00); /* Background color for the navigation bar */
+  padding: 10px; /* Add padding to space content from edges */
+}
+
+/* Style for the navigation bar */
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Style for the list items in the navigation bar */
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin-right: 10px; /* Add some spacing between list items */
+}
+
+/* Style for the "Home" link */
+.nav li:first-child {
+    margin-right: auto; /* Push "Home" to the left */
+}
+
+/* Style for links */
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Style the links on hover */
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
+/* This styling is for the article*/
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 20vh; /* Optional: Make the article take up the full viewport height */
+}
+
+article > div {
+    text-align: center; /* Center the text within the div */
+}
+
+/* Optional styling for headings and text */
+h4, h2, h5 {
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+/* Style the hr element with the class "breakline" */
+.breakline {
+  border: none; /* Remove the default border */
+  height: 5px; /* Set the height of the horizontal line */
+  background-color: #ccc; /* Set the background color to gray or your preferred color */
+   /* Add margin for spacing */
+}
+
+/* this styling sheet is for the Plan/Pricing */
+.plan {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.planspeed,
+.planprice {
+	flex: 1;
+    padding: 10px;
+    text-align: center; /* Optional center-align content */
+}
+
+/* this is for the webpage pricing plan*/
+
+#homepageplan, #editaccountplan {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+/* Style the individual plan containers */
+.planspeed {
+  flex: 0 0 calc(50% - 20px); /* Two plans per row, with spacing */
+  background-color: #f2f2f2; /* Background color for the boxes */
+  padding: 20px; /* Add padding inside the box */
+  text-align: center; /* Center-align text */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+
+/* Add a hover effect to the plan containers */
+.planspeed:hover {
+  background-color: #c0c0c0; /* Background color on hover */
+  color: #000000; /* Text color on hover */
+}
+
+
+.plan:hover {
+    transform: scale(1.05);
+}
+
+
+/* Style for the text */
+p {
+    margin: 10px 0;
+}
+
+/* Style for the prices */
+p:nth-of-type(2), span {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style the outer container */
+.accountInfo {
+    width: 300px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the individual input sections */
+.firstname,
+.lastname,
+.address,
+.phonenumber {
+    margin-bottom: 15px;
+}
+
+/* Style the form labels */
+form\:label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style the form input fields */
+form\:input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style the form error messages */
+form\:errors {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
